@@ -1,0 +1,64 @@
+# Compiled class files & build output
+target/
+*.class
+
+# Log files
+*.log
+logs/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# OS and filesystem artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# Environment files & sensitive credentials
+.env
+.env.*
+*.env
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.pkcs12
+*.jks
+credentials.json
+secrets/
+
+# Node & package manager artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
